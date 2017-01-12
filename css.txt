@@ -1,0 +1,22 @@
+CSS commands:
+search by elements (# - replace id, . - replace class)
+- element(i.e. div, a, h1 etc.) + # - search by id E#myId
+- element (i.e. div, a, h1, etc.) + . - search by class E.class
+- E:contains("sometext")
+- E:nth-of-typу(number of searching element)
+
+Use attribute:
+- E[attribute="name_of_attribute"]
+- E[attribute^="name"] - ^ means start mith "name"
+- E[attribute$="name"] - $ means end with "name"
+- E[attribute~="name_of_attribute"] - 
+- E[attribute*="name"] * means "name" is present anywhere in name
+
+
+E F - space between elements search for all childs
+E > F - immediate(direct) child
+E + F - element that is right after first element
+E ~ F - element somewhere after element
+
+
+
