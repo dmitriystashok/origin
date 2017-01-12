@@ -7,4 +7,4 @@ Xpath commands:
 - descendant::*   - /descendant::div[@id='name']/descendant::a[1] - search from top to bottom
 - ancestor::*   - //a[ancestor::div[@id='name']] - search from bottom to top
 - contains() - //*[contains(text(),'some text')] or //ul[@class='someclass' and contains(.,'sometext') 
-
+- //descendant::* - will search for all descendants from top to bottom
