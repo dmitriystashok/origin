@@ -3,7 +3,7 @@ search by elements (# - replace id, . - replace class)
 - element(i.e. div, a, h1 etc.) + # - search by id E#myId
 - element (i.e. div, a, h1, etc.) + . - search by class E.class
 - E:contains("sometext")
-- E:nth-of-typу(number of searching element)
+- E:nth-of-type(number of searching element)
 
 Use attribute:
 - E[attribute="name_of_attribute"]
