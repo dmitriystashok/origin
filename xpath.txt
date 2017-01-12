@@ -6,4 +6,5 @@ Xpath commands:
 - to specify number - //*[1]
 - descendant::*   - /descendant::div[@id='name']/descendant::a[1] - search from top to bottom
 - ancestor::*   - //a[ancestor::div[@id='name']] - search from bottom to top
-- contains() - //*[contains(text(),'some text')] or //ul[@class='someclass' and contains(.,'sometext')]
+- contains() - //*[contains(text(),'some text')] or //ul[@class='someclass' and contains(.,'sometext') 
+
